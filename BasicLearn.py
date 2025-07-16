@@ -75,3 +75,40 @@
 #     print("enter the fucking name!!!!")
 # else:
 #     print(f"hello {name}")
+
+#simple Calculator using else-if statements
+# print("+ for add, - for substract, * for multiply, / for divide \n")
+# op=input("enter the operator (+ - / *) =")
+# num1=float(input("enter your first no.="))
+# num2=float(input("enter your second no.="))
+#
+# if op == "+":
+#     print(num1+num2)
+# elif op == "-":
+#     print(num1-num2)
+# elif op == "*":
+#     print(num1*num2)
+# elif op == "/":
+#     print(num1/num2)
+# else:
+#     print("invalid operator")
+
+# temp. convertor f to c & vice-versa
+# temp=float(input("enter your temp. : "))
+# unit=input("enter unit c for celsius f for fahrenheit : ")
+# if unit == "c":
+#     print(f"{(temp*9)/5+32}°f")
+# elif unit == "f":
+#     print(f"{(temp-32)*5/9}°c")
+# else:
+#     print("enter valid unit ")
+
+
+#logical operators
+#or= at least one condition is true
+#and= all conditions must be true
+#not= invert the condition result (not true means false, vice-versa)
+
+
+#Ternary operator(one-line if-else statement)
+# x if condition else y
